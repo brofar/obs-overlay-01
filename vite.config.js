@@ -7,5 +7,6 @@ export default defineConfig({
     port: 3000,
     host: 'localhost',
   },
+  base: '/obs-overlay-01/',
   plugins: [react()],
 })
